@@ -20,5 +20,10 @@ public class nodeManager : MonoBehaviour
     {
         Vector3 direction = Player.transform.position - transformer.position;
         Player.transform.position += Vector3.Normalize(-direction) * Time.deltaTime * speed;
+
+        
     }
+
+
+    
 }
