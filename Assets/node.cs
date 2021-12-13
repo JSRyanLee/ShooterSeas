@@ -20,9 +20,10 @@ public class node : MonoBehaviour
         {
             nm.id++;
             nm.transformer = nm.nodes[nm.id].transform;
-            nm.speed = speed;
+            nm.rotation = nm.transformer.rotation;
+           // nm.speed = speed;
 
-            nm.Player.transform.LookAt(nm.transformer);
+            //nm.Player.transform.LookAt(nm.transformer);
             if (stop)
             {
                 
